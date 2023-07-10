@@ -473,7 +473,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: fit-content;
+    width: 70%;
     font-family: inherit;
     font-weight: 700;
     background-color: #fff;
@@ -1192,6 +1192,7 @@ body {
     line-height: 20px;
     font-weight: 700;
     margin-top: 6px;
+    color: black;
 }
 
 .email-sign-up button:hover {
