@@ -1,0 +1,2264 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Gill Sans, Gill Sans MT, GillSansMTStd-Medium, Avenir, Corbel, Arial, Helvetica, sans-serif;
+}
+
+.topLinks {
+    background: #102B2B;
+    height: 24px;
+    font-weight: 400;
+    padding-right: 18px;
+    padding-left: 16px;
+}
+
+.topLinks li {
+    color: #fff;
+    list-style: none;
+    padding-left: 16px;
+    font-size: 12px;
+    padding-bottom: 6px;
+    padding-top: 2px;
+}
+
+.topLinks li:first-of-type {
+    padding-left: 0px;
+}
+
+.topLinks ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 3px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.topLinks-highlight {
+    border-bottom: 6px solid #1db954;
+    width: 100%;
+}
+
+.header-wrapper {
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.header {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 19px;
+    padding-bottom: 17px;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.john-lewis-logo {
+    height: auto;
+    width: 178px;
+}
+
+.search-container {
+    position: relative;
+    width: 430px;
+    height: 48px;
+}
+
+.search-container button {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    border: none;
+    background: none;
+}
+
+.search-container input {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #6b6b6b;
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+    padding-top: 13px;
+    padding-right: 10px;
+    padding-bottom: 14px;
+    font-family: Gill Sans;
+}
+
+.account-nav {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 182px;
+}
+
+.nav-signin,
+.nav-basket-icon {
+    padding-right: 8px;
+}
+
+.nav-profile-icon,
+.nav-wishlist-icon {
+    padding-right: 26px;
+}
+
+.nav-menu-icon,
+.responsive-nav-labels {
+    display: none;
+}
+
+.responsive-nav-labels {
+    font-size: 10px;
+}
+
+.main-nav {
+    padding: 0 18px 0 18px;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.main-nav li {
+    list-style: none;
+    padding: 15px 0 14px;
+}
+
+#sale-tab {
+    color: #db003e;
+}
+
+.offer-banner {
+    width: 100%;
+    padding: 4px 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #102B2B;
+    color: #FFFFFF;
+    line-height: 1.25;
+    font-weight: 400;
+    margin-top: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.offer-banner span {
+    text-decoration: underline;
+}
+
+.main-pic {
+    height: auto;
+    width: 100%;
+}
+
+.hero-container {
+    position: relative;
+    width: 100%
+}
+
+.hero-contents {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.hero-contents img {
+    height: auto;
+    width: 49%;
+}
+
+.hero-buttons {
+    margin-top: 50px;
+}
+
+.hero-contents button {
+    border: none;
+    font-family: inherit;
+    font-weight: 650;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #141414;
+    padding: 14px 12px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    width: 155px;
+    min-width: 80px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.hero-contents button:hover {
+    background: #1db954;
+}
+
+.spring-savings-section {
+    width: 100%;
+    background: #f3f3f3;
+    margin-top: -4px;
+    padding: 48px 148px 80px 148px;
+}
+
+.spring-savings-inner-wrapper {
+    max-width: 1168px;
+    margin: 0 auto;
+}
+
+.spring-savings-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.spring-savings-title h2 {
+    color: #141414;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    margin: 0;
+}
+
+.spring-savings-title span {
+    cursor: pointer;
+    color: #141414;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #141414;
+}
+
+.spring-savings-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 16px;
+}
+
+.spring-savings-grid-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background: #ffffff;
+    height: 90px;
+}
+
+.spring-savings-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.spring-savings-grid h3 {
+    color: #cc1426;
+    font-size: 24px;
+    font-weight: 650;
+    line-height: 28px;
+    margin: 0 0 2px 0;
+}
+
+.spring-savings-grid span {
+    color: #141414;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 2px;
+    text-transform: none;
+}
+
+.spring-savings-chevron-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+
+.spring-savings-chevron-container:hover {
+    border-radius: 50px;
+    background: #d8d8d8;
+    cursor: pointer;
+}
+
+#spring-responsive-text {
+    display: none;
+}
+
+.recommended-for-you {
+    height: 585px;
+    background: #ffffff
+}
+
+.recommended-products {
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.recommended-product {
+    display: flex;
+    flex-direction: column;
+    width: 204px;
+    align-items: center;
+    margin-left: 4px;
+}
+
+.recommended-for-you h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 24px 0;
+    text-align: center;
+}
+
+.recommended-for-you img {
+    width: 204px;
+    height: auto;
+}
+
+.recommended-for-you-buttons {
+    font-family: inherit;
+    padding: 9px 8px 11px 8px;
+    background-color: #141414;
+    color: #fff;
+    margin: 8px;
+    width: calc(100% - 16px);
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.recommended-for-you-buttons:hover,
+.trending-flex-container button:hover,
+.new-summer-details button:hover {
+    cursor: pointer;
+    color: #141414;
+    background: #1db954;
+}
+
+.product-details-container {
+    width: 188px;
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-name {
+    color: #141414;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.product-name {
+    color: #5b5b5b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 0;
+}
+
+.product-price {
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 8px 0px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    align-self: stretch;
+}
+
+.number-of-reviews {
+    margin-left: 7px;
+}
+
+.star-rating-section {
+    display: flex;
+    align-items: center;
+}
+
+.svg-wrapper {
+    position: relative;
+    width: 70px;
+    height: 14px;
+}
+
+.first-svg,
+.second-svg {
+    position: absolute;
+    top: 0;
+}
+
+.second-svg {
+    overflow: hidden;
+}
+
+#recommended-for-you-chevron {
+    background-image: url(https://www.johnlewis.com/static/ui-assets/hashed/icons-jb/chevron-right/chevron-right-24px-outlined-white.a9802816.svg);
+    background-color: #5b5b5b;
+    background-repeat: no-repeat;
+    background-size: 22px;
+    border-radius: 28px;
+    height: 40px;
+    width: 40px;
+    background-position: 10px;
+    position: absolute;
+    right: 12px;
+    top: 23%;
+    z-index: 10;
+    border: none;
+}
+
+.trending-title {
+    margin-left: 7%;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.trending-flex-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.trending-flex-container {
+    width: 25%;
+    position: relative;
+}
+
+.trending-flex-container img {
+    width: 100%;
+    height: auto;
+}
+
+.trending-flex-container button {
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    font-family: inherit;
+    font-weight: 700;
+    background-color: #fff;
+    color: #141414;
+    padding: 8px 12px 12px 12px;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 26px
+}
+
+.empty {
+    height: 200px;
+    background: pink;
+}
+
+.container {
+    width: 100%;
+}
+
+.new-summer-section {
+    width: 100%;
+    padding: 3.5% 7%;
+}
+
+.new-for-summer-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 0 0 19px 30px;
+}
+
+.new-summer-flex {
+    display: flex;
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.new-summer-item {
+    width: calc(100% - 96px / 3);
+    margin: 0px 16px 0px 16px;
+    background: #f3f3f3;
+    ;
+}
+
+.new-summer-item img {
+    width: 100%;
+    height: auto;
+}
+
+.new-summer-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 24px 34px 40px 34px;
+}
+
+.new-summer-details h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.new-summer-details p {
+    font-size: 20px;
+    margin: 14px 0px;
+}
+
+.new-summer-details button {
+    padding: 11px 10px;
+    font-size: 20px;
+    line-height: 28px;
+    width: auto;
+    font-family: inherit;
+    background-color: #141414;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 19px;
+}
+
+.must-haves-section {
+    width: 100%;
+    padding: 3.5% 7%;
+    background: #e7e5df;
+}
+
+.must-haves-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 0 0 19px 36px;
+}
+
+.must-haves-flex {
+    display: flex;
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+.must-haves-item {
+    width: 25%;
+    margin: 0px 16px 0px 16px;
+    background: #ffffff;
+    ;
+}
+
+.must-haves-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 24px 24px 24px;
+}
+
+.must-haves-details h3 {
+    margin: 0 0 2px 0;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.must-haves-details p {
+    font-size: 20px;
+    margin: 14px 0px;
+}
+
+.must-haves-details span {
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 2px;
+    padding: 0 0 1px;
+    cursor: pointer;
+}
+
+#must-haves-img-1,
+#must-haves-img-2,
+#must-haves-img-3,
+#must-haves-img-4 {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+#must-haves-img-1 {
+    content: url(https://johnlewis.scene7.com/is/image/JohnLewis/WK16-FTW-DESKTOP-01a-180523?$cms-max-image-threshold$&wid=638&fit=hfit,1);
+}
+
+#must-haves-img-2 {
+    content: url(https://johnlewis.scene7.com/is/image/JohnLewis/WK16-FTW-DESKTOP-02-180523?$cms-max-image-threshold$&wid=638&fit=hfit,1);
+}
+
+#must-haves-img-3 {
+    content: url(https://johnlewis.scene7.com/is/image/JohnLewis/WK16-FTW-DESKTOP-04-180523?$cms-max-image-threshold$&wid=638&fit=hfit,1);
+}
+
+#must-haves-img-4 {
+    content: url(https://johnlewis.scene7.com/is/image/JohnLewis/WK16-FTW-DESKTOP-03-180523?$cms-max-image-threshold$&wid=638&fit=hfit,1);
+}
+
+.empty-div-1 {
+    width: 100%;
+    background: #ffffff;
+    height: 48px;
+}
+
+.shop-by-brand-section {
+    width: 100%;
+    background: #f3f3f3;
+    padding: 3.5% 10%;
+}
+
+.shop-by-brand-section h2 {
+    margin: 15px auto 25px auto;
+    text-align: left;
+    max-width: 1160px;
+    font-size: 32px;
+}
+
+.shop-by-brand-grid {
+    margin: 0 auto;
+    max-width: 1160px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 16px;
+}
+
+.shop-by-brand-grid img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.shop-by-brand-link-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1160px;
+    margin-top: 20px;
+}
+
+.shop-by-brand-link-container p {
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+.stories-section {
+    width: 100%;
+    padding: 3% 7%;
+}
+
+.stories-section h2 {
+    margin: 0 auto;
+    max-width: 1150px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.stories-caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 1150px;
+    margin: 0 auto 23px auto;
+}
+
+.stories-caption h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 6px 0 0 0;
+}
+
+.stories-caption span {
+    text-decoration: underline;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.stories-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 32px;
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+.stories-grid-item {
+    background: #f7f7f7;
+}
+
+#stories-img-1,
+#stories-img-2,
+#stories-img-3 {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+#stories-img-1 {
+    content: url(https://johnlewis.scene7.com/is/image/JohnLewis/HPWK16_EDIT_BLOCK_01aa_180523?$cms-max-image-threshold$&wid=1536&fit=hfit,1)
+}
+
+#stories-img-2 {
+    content: url(https://johnlewis.scene7.com/is/image/JohnLewis/HPWK16_EDIT_BLOCK_02a_180523?$cms-max-image-threshold$&wid=1536&fit=hfit,1)
+}
+
+#stories-img-3 {
+    content: url(https://johnlewis.scene7.com/is/image/JohnLewis/HPWK16_EDIT_BLOCK_03_0180523?$cms-max-image-threshold$&wid=1536&fit=hfit,1)
+}
+
+.stories-grid-details {
+    padding: 6% 12%;
+}
+
+.stories-grid-details :first-child {
+    margin-top: 0;
+}
+
+.stories-grid-details h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 0 0 9px 0;
+}
+
+.stories-grid-details :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 0 24px 0;
+}
+
+.stories-grid-details span {
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 2px;
+    padding: 0 0 3px;
+    cursor: pointer;
+}
+
+.this-week-section {
+    width: 100%;
+    padding: 3% 8% 4% 8%;
+    background: #e8e3df;
+}
+
+.this-week-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 0 0 19px 36px;
+}
+
+.this-week-flex {
+    display: flex;
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+.this-week-item {
+    width: 25%;
+    margin: 0px 16px 0px 16px;
+    background: #ffffff;
+    ;
+}
+
+.this-week-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 24px 24px 24px;
+}
+
+.this-week-details h3 {
+    margin: 0 0 2px 0;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.this-week-details p {
+    font-size: 20px;
+    margin: 14px 0px;
+    line-height: 28px;
+}
+
+.this-week-details span {
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 2px;
+    padding: 0 0 1px;
+    cursor: pointer;
+}
+
+#this-week-img-1,
+#this-week-img-2,
+#this-week-img-3,
+#this-week-img-4 {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+#this-week-img-1 {
+    content: url(https://johnlewis.scene7.com/is/image/JohnLewis/hp-wk17-feature-this-week-dt-01-250523a?$cms-max-image-threshold$&wid=638&fit=hfit,1)
+}
+
+#this-week-img-2 {
+    content: url(https://johnlewis.scene7.com/is/image/JohnLewis/hp-wk17-feature-this-week-dt-02-250523?$cms-max-image-threshold$&wid=638&fit=hfit,1)
+}
+
+#this-week-img-3 {
+    content: url(https://johnlewis.scene7.com/is/image/JohnLewis/hp-wk17-feature-this-week-dt-03-250523?$cms-max-image-threshold$&wid=638&fit=hfit,1)
+}
+
+#this-week-img-4 {
+    content: url(https://johnlewis.scene7.com/is/image/JohnLewis/hp-wk17-feature-this-week-dt-04-250523?$cms-max-image-threshold$&wid=638&fit=hfit,1)
+}
+
+.services-section {
+    width: 100%;
+    padding: 3% 8%;
+}
+
+.services-section h2 {
+    margin: 0 auto;
+    max-width: 1150px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-left: 16px;
+}
+
+.services-caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 1150px;
+    margin: 0 auto 23px auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.services-caption h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 6px 0 0 0;
+}
+
+.services-caption span {
+    text-decoration: underline;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.services-section-small {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services-small-first-grid,
+.services-small-second-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 48%;
+    background: #f3f3f3;
+}
+
+#services-small-img1,
+#services-small-img2 {
+    width: 100%;
+    height: auto;
+}
+
+.services-small-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10% 34px 24px 24px;
+}
+
+.services-small-details h3,
+.services-big-details h3 {
+    margin: 0 0 2px 0;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.services-small-details p {
+    font-size: 20px;
+    margin: 14px 0px;
+    line-height: 28px;
+}
+
+.services-small-details span {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 2px;
+    padding: 0 0 1px;
+    cursor: pointer;
+}
+
+#services-big-span,
+.sustainable-text span {
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 2px;
+    padding: 0 0 1px;
+    cursor: pointer;
+}
+
+.services-big-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    background: #f7f7f7;
+    max-height: 999px;
+}
+
+.services-big-details {
+    padding: 2% 6% 2% 11%;
+}
+
+.services-big-details p:nth-of-type(1) {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 18px;
+}
+
+.services-big-details p:nth-of-type(2) {
+    margin-top: 18px;
+}
+
+.services-big-details p:nth-of-type(3) {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.services-big-details p:nth-of-type(4) {
+    font-size: 14px;
+}
+
+.services-big-details p:nth-of-type(4) span {
+    font-weight: bold;
+}
+
+.services-big-img {
+    background-image: url("services-img-4.jpeg");
+    background-size: cover;
+    background-position: left;
+}
+
+.sustainable-section {
+    background-color: #1cb955;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+
+.sustainable-section img {
+    width: 120px;
+}
+
+.sustainable-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    max-width: 450px;
+}
+
+.sustainable-text h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 10px 0 10px 0;
+}
+
+.sustainable-text p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sustainable-text span {
+    align-self: flex-start;
+}
+
+.recently-viewed h2 {
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    font-size: 29px;
+    margin-bottom: 0;
+}
+
+.recently-viewed {
+    width: 100%;
+    padding: 10px;
+}
+
+.recently,
+.recently img,
+.recently .product-details-container {
+    width: 163px;
+}
+
+.recently-wrapper {
+    width: 978px
+}
+
+.recently-image-container {
+    position: relative
+}
+
+.recently-image-container img:first-of-type {
+    position: absolute;
+    background-color: white;
+    border-radius: 28px;
+    height: 33px;
+    width: 33px;
+    right: 6px;
+    top: 6px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.recently button {
+    padding: 6px 8px;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+.recently .product-name {
+    color: black;
+}
+
+.recently .product-price {
+    font-weight: bold;
+}
+
+.recently .product-details-container {
+    padding: 10px;
+}
+
+.recently .star-rating-section {
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 6px;
+}
+
+.recently-viewed #recommended-for-you-chevron {
+    right: -36px;
+    cursor: pointer;
+}
+
+.recently-viewed-toggles {
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.recently-viewed-toggles :first-child {
+    width: 32px;
+    background-color: #000000;
+    height: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.recently-viewed-toggles:first-child:hover {
+    background-color: red;
+}
+
+.recently-viewed-toggles :nth-child(2),
+.recently-responsive-buttons {
+    width: 32px;
+    background-color: #d8d8d8;
+    height: 2px;
+    margin-left: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.recently-responsive-buttons {
+    display: none;
+}
+
+.recently-responsive-buttons:hover {
+    background-color: grey;
+}
+
+.recently-second-button:hover {
+    background-color: grey;
+}
+
+.email-sign-up {
+    border-top: 7px solid #1eb855;
+    border-bottom: 1px solid #ffffff;
+    background: #102b2b;
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.email-sign-up :first-child {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 18px;
+}
+
+.email-sign-up :nth-child(2) {
+    margin: 0 0 14px 0;
+}
+
+.email-sign-up button {
+    border-radius: 2px;
+    border: 1px solid black;
+    padding: 14px 12px;
+    cursor: pointer;
+    font-family: inherit;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+.email-sign-up button:hover {
+    border: 1px solid #1eb855;
+}
+
+.footer-links-section {
+    background: #102b2b;
+    padding: 30px 0 10px 50px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer-links-grid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.2fr 1fr;
+    grid-gap: 10px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.footer-col h3 {
+    font-size: 20px;
+}
+
+.footer-col p {
+    margin: 32px 0;
+}
+
+.footer-col p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-links-responsive-section {
+    display: none;
+}
+
+.QR-section {
+    background: #102b2b;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 0 34px;
+}
+
+.QR-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+.feedback {
+    padding: 30px 40px 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feedback h3 {
+    display: none;
+}
+
+.feedback p {
+    margin-top: 0;
+}
+
+.feedback button {
+    padding: 12px 20px;
+    border: 1px solid white;
+    border-radius: 2px;
+    background: #102b2b;
+    color: white;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 600;
+    align-self: flex-start
+}
+
+.feedback button:hover {
+    background: white;
+    color: #102b2b;
+}
+
+.QR {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-left: 1px solid white;
+    padding: 30px 50px;
+}
+
+.QR svg {
+    width: 80px;
+    height: 80px;
+    border: 3px solid white;
+    margin-right: 20px;
+}
+
+.QR p {
+    font-size: 21px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.QR-images {
+    display: none;
+    cursor: pointer;
+}
+
+.QR-images :nth-child(2) {
+    margin-left: 20px;
+    width: 150.66407px;
+    height: 60px
+}
+
+.QR h3 {
+    display: none;
+}
+
+.terms-section {
+    background: #102B2B;
+    border-bottom: 1px solid white;
+    width: 100%;
+    color: white;
+    padding: 16px;
+}
+
+.terms-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+.terms-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.terms-links p {
+    padding-right: 20px;
+    margin: 5px 0;
+}
+
+.terms-links p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.copyright-description {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.terms-wrapper span {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.social-section {
+    background: #102B2B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.social-section-wrapper {
+    max-width: 1210px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px auto;
+}
+
+.social-section p {
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.tagline {
+    display: flex;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
+.social-links svg {
+    margin-left: 40px;
+}
+
+.social-links svg:hover,
+.tagline p:hover,
+.tagline svg:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* Media Queries  */
+
+
+@media screen and (max-width: 1380px) {
+    .services-small-details {
+        padding: 0 34px 0 24px;
+    }
+}
+
+@media screen and (max-width: 1305px) {
+    .hero-buttons {
+        margin-top: 20px;
+    }
+
+    .hero-buttons button {
+        width: 110px;
+    }
+
+    .spring-savings-grid-content {
+        height: 118px;
+    }
+
+    .footer-links-section {
+        padding: 30px 5px 10px 5px;
+    }
+
+    .footer-links-grid {
+        width: 95%;
+    }
+
+    .terms-section {
+        padding: 32px 32px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+
+    .services-section {
+        padding: 4% 0;
+    }
+
+    .services-section h2 {
+        font-size: 24px;
+        line-height: 28px;
+        padding: 0 5px 0 5px;
+    }
+
+    .services-caption {
+        padding: 0 5px 0 5px;
+    }
+
+    .services-caption h4 {
+        font-size: 16px;
+    }
+
+    .services-caption span {
+        font-size: 16px;
+    }
+
+    .services-small-details {
+        padding: 0 16% 0 9%;
+    }
+
+    .services-small-details h3 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .services-small-details p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .services-small-first-grid,
+    .services-small-second-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.5fr;
+        width: 44%;
+    }
+
+    .terms-section {
+        padding: 32px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .stories-grid-details {
+        padding: 8% 14% 10% 14%;
+    }
+
+    .services-big-grid {
+        height: 648px;
+    }
+
+    .services-big-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .services-big-details h3 {
+        font-size: 20px;
+    }
+
+    .services-big-details p:nth-of-type(3) {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .services-big-details span {
+        align-self: flex-start;
+    }
+}
+
+@media screen and (max-width: 1115px) {
+    .main-nav {
+        display: none;
+    }
+
+    .topLinks {
+        display: none;
+    }
+
+    .spring-savings-grid-content {
+        height: 156px;
+    }
+
+    .trending-title {
+        margin-left: 1%;
+        margin-bottom: 1%;
+        margin-top: 3%;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .shop-by-brand-section {
+        padding: 2% 8%;
+    }
+
+    .stories-section {
+        width: 100%;
+        padding: 5% 7%;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .this-week-details {
+        padding: 15px 18px 18px 18px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+
+    .responsive-nav-labels,
+    .nav-menu-icon {
+        display: block;
+    }
+
+    .nav-signin,
+    .nav-wishlist-icon {
+        display: none;
+    }
+
+    .account-nav {
+        width: 141px;
+        display: grid;
+        grid-template-columns: repeat(3, 47px);
+        grid-template-rows: 28px 10px;
+        grid-template-areas:
+            "a b c"
+            "d e f";
+        grid-row-gap: 2px;
+        justify-items: center;
+    }
+
+    .nav-profile-icon {
+        grid-area: a;
+        padding: 0;
+    }
+
+    .nav-basket-icon {
+        grid-area: b;
+        padding: 0;
+    }
+
+    .nav-menu-icon {
+        grid-area: c;
+    }
+
+    nav .responsive-nav-labels:first-of-type {
+        grid-area: d;
+    }
+
+    nav .responsive-nav-labels:second-of-type {
+        grid-area: e;
+    }
+
+    nav .responsive-nav-labels:third-of-type {
+        grid-area: f;
+    }
+
+    .john-lewis-logo {
+        width: 154px;
+    }
+
+    .search-container {
+        width: 375px;
+    }
+
+    .hero-buttons {
+        margin-top: 30px;
+    }
+
+    .hero-buttons button {
+        width: 185px;
+    }
+
+    .hero-contents img {
+        width: 58%;
+    }
+
+    .new-for-summer-title {
+        font-size: 24px;
+        margin: 5px 0px 19px 5px;
+    }
+
+    .new-summer-flex {
+        width: 100%;
+    }
+
+    .new-summer-section {
+        padding: 0;
+        padding: 3.5% 0 5% 0;
+    }
+
+    .new-summer-details {
+        padding: 24px 19px 40px 19px;
+    }
+
+    .new-summer-item:first-of-type {
+        margin: 0px 16px 0px 0px;
+    }
+
+    .new-summer-item:last-of-type {
+        margin: 0px 0px 0px 16px;
+    }
+
+    .new-summer-details h3,
+    .must-haves-details h3,
+    .this-week-details h3 {
+        font-size: 20px;
+    }
+
+    .new-summer-details p,
+    .must-haves-details p,
+    .this-week-details p {
+        font-size: 16px;
+    }
+
+    .new-summer-details button {
+        padding: 4px 10px 6px 10px;
+    }
+
+    .must-haves-section,
+    .this-week-section {
+        padding: 3.5% 0;
+    }
+
+    .must-haves-title,
+    .this-week-title {
+        font-size: 24px;
+        margin-left: 16px;
+    }
+
+    .must-haves-details {
+        padding: 15px 18px 18px 18px;
+    }
+
+    .shop-by-brand-section {
+        padding: 2% 10px;
+    }
+
+    .shop-by-brand-section h2 {
+        font-size: 24px;
+    }
+
+    .stories-grid-details :nth-child(3) {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .stories-section {
+        padding: 5% 0;
+    }
+
+    .stories-section h2 {
+        font-size: 24px;
+        line-height: 28px;
+        padding: 0 5px 0 5px;
+    }
+
+    .stories-caption {
+        padding: 0 5px 0 5px;
+    }
+
+    .stories-caption h4 {
+        font-size: 16px;
+    }
+
+    .stories-caption span {
+        font-size: 16px;
+    }
+
+    .stories-grid-details {
+        padding: 7% 14% 5% 14%;
+    }
+
+    .stories-grid-details:first-of-type {
+        margin-bottom: 10px;
+    }
+
+    .stories-grid-details h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .services-small-details {
+        padding: 5% 16% 6% 9%;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .hero-buttons button {
+        width: 149px;
+    }
+
+    .spring-savings-section {
+        padding: 48px 25px 80px 25px
+    }
+
+    .spring-savings-text {
+        align-self: start;
+    }
+
+    .spring-savings-chevron-container {
+        align-self: flex-end;
+    }
+
+    .spring-savings-grid h3,
+    .spring-savings-grid span {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .social-links svg {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .search-container {
+        width: 705px;
+        margin-top: 7px;
+    }
+
+    .header {
+        padding-top: 12px;
+    }
+
+    .search-container {
+        order: 1;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .hero-contents {
+        padding: 10px;
+        padding-bottom: 42px;
+        justify-content: flex-end;
+    }
+
+    .hero-buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+
+    .hero-buttons button {
+        margin: 0;
+        margin-top: 17px;
+        width: 48%;
+    }
+
+    .main-pic {
+        content: url(https://johnlewis.scene7.com/is/image/JohnLewis/hp-wk15-hero-holiday1-mob-050523?$cms-max-image-threshold$&wid=2048&fit=hfit,1)
+    }
+
+    .hero-contents img {
+        content: url(https://johnlewis.scene7.com/is/image/JohnLewis/hp-wk15-hero-holidayshop-title-twoline-bold-100523?$cms-max-image-threshold$&$alpha$&wid=2048&fit=hfit,1);
+        height: auto;
+        width: 84%;
+    }
+
+    .offer-banner {
+        margin-top: 0;
+    }
+
+    .spring-savings-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 8px;
+    }
+
+    .spring-savings-title h2 {
+        font-size: 24px;
+    }
+
+    .spring-savings-title span {
+        display: none;
+    }
+
+    #spring-responsive-text {
+        display: block;
+        width: 100px;
+        cursor: pointer;
+        color: #141414;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+        padding-bottom: 2px;
+        padding-top: 20px;
+        margin: 0;
+        border-bottom: 1px solid #141414;
+    }
+
+    .spring-savings-section {
+        padding: 48px 20px 40px 20px
+    }
+
+    .container {
+        overflow-x: scroll;
+    }
+
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb:horizontal {
+        background-color: black;
+        width: 5px;
+        height: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb:vertical {
+        background-color: grey;
+        border-radius: 4px;
+    }
+
+    .trending-flex-wrapper {
+        width: 150%;
+        flex-wrap: nowrap;
+    }
+
+    .trending-flex-container {
+        flex-shrink: 1;
+    }
+
+    .trending-title {
+        margin-bottom: 2%;
+        margin-top: 4%;
+    }
+
+    .new-summer-section {
+        padding: 6% 0 7% 0;
+    }
+
+    .new-summer-flex {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .new-summer-item {
+        margin: 0;
+        width: 100%;
+    }
+
+    .new-summer-item:last-of-type {
+        margin: 0;
+    }
+
+    .new-summer-details {
+        padding: 24px 55px 40px 55px;
+    }
+
+    .new-summer-details button {
+        font-size: 16px;
+    }
+
+    .must-haves-title,
+    .this-week-title {
+        margin: 20px 0 19px 0;
+    }
+
+    .must-haves-flex,
+    .this-week-flex {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 23px 16px;
+        margin-bottom: 20px;
+    }
+
+    .must-haves-item,
+    .this-week-item {
+        width: 100%;
+        margin: 0;
+    }
+
+    #must-haves-img-1 {
+        content: url(https://johnlewis.scene7.com/is/image/JohnLewis/WK16-FTW-MOBILE-01a-180523?$cms-max-image-threshold$&wid=768&fit=hfit,1);
+    }
+
+    #must-haves-img-2 {
+        content: url(https://johnlewis.scene7.com/is/image/JohnLewis/WK16-FTW-MOBILE-02-180523?$cms-max-image-threshold$&wid=768&fit=hfit,1);
+    }
+
+    #must-haves-img-3 {
+        content: url(https://johnlewis.scene7.com/is/image/JohnLewis/WK16-FTW-MOBILE-04-180523?$cms-max-image-threshold$&wid=768&fit=hfit,1);
+    }
+
+    #must-haves-img-4 {
+        content: url(https://johnlewis.scene7.com/is/image/JohnLewis/WK16-FTW-MOBILE-03-180523?$cms-max-image-threshold$&wid=768&fit=hfit,1);
+    }
+
+    .stories-section {
+        padding: 7% 0 7% 0;
+    }
+
+    .stories-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr)
+    }
+
+    #stories-img-1 {
+        content: url(https://johnlewis.scene7.com/is/image/JohnLewis/HPWK16_EDIT_BLOCK_01aa_180523?$cms-max-image-threshold$&wid=1536&fit=hfit,1)
+    }
+
+    #stories-img-2 {
+        content: url(https://johnlewis.scene7.com/is/image/JohnLewis/HPWK16_EDIT_BLOCK_02a_180523?$cms-max-image-threshold$&wid=1536&fit=hfit,1)
+    }
+
+    #stories-img-3 {
+        content: url(https://johnlewis.scene7.com/is/image/JohnLewis/HPWK16_EDIT_BLOCK_03_0180523?$cms-max-image-threshold$&wid=1536&fit=hfit,1)
+    }
+
+    .stories-grid-details {
+        padding: 3.5% 8% 3% 7%;
+    }
+
+    .stories-section h2 {
+        padding: 0 10px;
+    }
+
+    .stories-section span {
+        margin-top: 40px;
+    }
+
+    .stories-caption {
+        padding: 0 10px;
+        flex-direction: column;
+    }
+
+    #this-week-img-1 {
+        content: url(https://johnlewis.scene7.com/is/image/JohnLewis/hp-wk17-feature-this-week-mob-01-250523a?$cms-max-image-threshold$&wid=576&fit=hfit,1);
+    }
+
+    #this-week-img-2 {
+        content: url(https://johnlewis.scene7.com/is/image/JohnLewis/hp-wk17-feature-this-week-mob-02-250523?$cms-max-image-threshold$&wid=576&fit=hfit,1);
+    }
+
+    #this-week-img-3 {
+        content: url(https://johnlewis.scene7.com/is/image/JohnLewis/hp-wk17-feature-this-week-mob-03-250523?$cms-max-image-threshold$&wid=576&fit=hfit,1);
+    }
+
+    #this-week-img-4 {
+        content: url(https://johnlewis.scene7.com/is/image/JohnLewis/hp-wk17-feature-this-week-mob-04-250523?$cms-max-image-threshold$&wid=576&fit=hfit,1);
+    }
+
+    .this-week-details p {
+        line-height: 22px;
+    }
+
+    .this-week-details span {
+        margin-bottom: 10px;
+    }
+
+    .footer-links-section {
+        display: none;
+    }
+
+    .footer-links-responsive-section {
+        display: block;
+        width: 100%;
+        background: #102b2b;
+        color: white;
+    }
+
+    .footer-links-responsive-grid {
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .footer-links-responsive-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ffffff;
+        padding: 8px 16px;
+        position: relative;
+    }
+
+    .footer-links-responsive-row h3 {
+        font-size: 20px;
+        margin: 6px 0;
+    }
+
+    .footer-links-responsive-row svg:hover {
+        cursor: pointer
+    }
+
+    .QR-section {
+        padding: 0;
+    }
+
+    .QR-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr .9fr;
+    }
+
+    .feedback {
+        padding: 10px 15px;
+    }
+
+    .feedback button {
+        font-size: 16px;
+        padding: 10px 10px;
+        margin-bottom: 14px;
+    }
+
+    .feedback h3 {
+        display: block;
+        margin-top: 13px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .QR {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        border-left: none;
+        border-top: 1px solid white;
+        padding: 0 15px;
+    }
+
+    .QR h3 {
+        display: block;
+        margin: 0 0 10px 0;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .QR svg,
+    .QR p {
+        display: none;
+    }
+
+    .QR-images {
+        display: flex;
+    }
+
+    .terms-section {
+        padding: 16px;
+    }
+
+    .terms-links {
+        display: none;
+    }
+
+    .social-section {
+        padding: 0;
+    }
+
+    .social-section-wrapper {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .social-links {
+        order: -1;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 27px 55px;
+        border-bottom: 1px solid white;
+    }
+
+    .social-links svg {
+        margin: 0;
+    }
+
+    .tagline {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .tagline p {
+        font-size: 22px;
+        margin: 27px 0 28px 0;
+        padding-left: 16px;
+    }
+}
+
+
+@media screen and (max-width: 770px) {
+    .shop-by-brand-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px 16px;
+    }
+
+    .shop-by-brand-section {
+        padding: 4% 5px;
+    }
+
+    .services-section {
+        padding: 6% 0;
+    }
+
+    .services-caption {
+        flex-direction: column;
+    }
+
+    .services-caption span {
+        padding-top: 20px;
+    }
+
+    .services-small-first-grid,
+    .services-small-second-grid {
+        width: 49%;
+    }
+
+    .services-small-details {
+        padding: 8% 14% 8% 12%;
+    }
+
+    .services-big-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "a"
+            "b";
+    }
+
+    .services-big-details {
+        grid-area: b;
+    }
+
+    .services-big-img {
+        grid-area: a;
+    }
+
+    .recently-responsive-buttons {
+        display: block;
+    }
+
+    .email-sign-up {
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+}
+
+
+@media screen and (min-width: 740px) and (max-width: 790px) {
+    .recommended-product img {
+        width: 185px;
+        height: auto;
+    }
+
+    .recommended-product {
+        width: 185px;
+    }
+
+    .product-details-container {
+        width: 158px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .spring-savings-grid span {
+        font-size: 18px;
+    }
+
+    .trending-flex-wrapper {
+        width: 180%;
+    }
+
+    .trending-flex-container button {
+        font-size: 15px;
+    }
+
+    .sustainable-section {
+        padding: 30px;
+        height: 200px;
+    }
+
+    .sustainable-section img {
+        width: 70px;
+    }
+
+    .sustainable-text h3 {
+        font-size: 1.3em;
+        margin: 0;
+    }
+
+    .sustainable-text p {
+        font-size: .9em;
+        margin: 5px 0;
+    }
+
+    .sustainable-text span {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .services-small-first-grid,
+    .services-small-second-grid {
+        grid-template-rows: .5fr 1fr;
+    }
+
+    .services-big-details {
+        padding-top: 20px;
+    }
+}
